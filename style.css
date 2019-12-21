@@ -16,7 +16,8 @@
   }
   
   header {
-    background: #d21034;
+    background: #ebebeb;
+    
   }
   
   h1 {
@@ -46,6 +47,9 @@
   #Article,
   #h1h2h3 {
     float: left;
+    color: #777;
+    background: #ebebeb;
+
   }
   
   #main-bio {
@@ -137,5 +141,5 @@ aside {
 footer {
   padding: 20px;
   clear: both;
-  background: #FFA500;
+  background: #777;
 }
