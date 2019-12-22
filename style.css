@@ -1,7 +1,18 @@
 
-    p {
-    border: 1px solid powderblue;
-    padding: 30px;
+
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+  }
+
+  nav { 
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+
   }
 
   body {
@@ -15,10 +26,7 @@
     background: #777;
   }
   
-  header {
-    background: #ebebeb;
-    
-  }
+
   
   h1 {
     padding: 20px 0;
@@ -51,21 +59,6 @@
     background: #ebebeb;
 
   }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-
 
 
   * {
@@ -74,22 +67,11 @@
 }
 
 body {
-  font-size: 24px;
-  line-height: 32px;
-  color: #333;
-}
-
-header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #FFA500;
-}
-
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #FFA500;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-sarif;
+  color: #777;
+  background: #777;
+  width: '960px';
+  font-size: 18px;
 }
 
 #left {
@@ -106,26 +88,7 @@ section {
   background: #9E1212;
 }
 
-#right {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #30948D;
-}
 
-#full {
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  color: #fff;
-  background: #394549;
-}
-
-#division {
-  padding: 20px;
-  margin-top: 20px;
-  background: #214fb3;
-}
 
 aside {
   float: left;
@@ -141,5 +104,5 @@ aside {
 footer {
   padding: 20px;
   clear: both;
-  background: #777;
+  background: #ebebeb;
 }
